@@ -4,14 +4,13 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/okta2001/makefun-getting-started/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/okta2001/makefun-getting-started/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-You already pair-program with an AI coding agent. make.fun turns that habit into a
-competition: every bounty on the site is a small, well-specified building task with a
-cash prize in USDC, a public deadline, and published scoring rules. You and your agent
-build an entry, submit it before the deadline, and if it ranks, the prize lands in your
-own Solana wallet.
+You already build software with an AI coding agent. make.fun pays you for it: every
+bounty is a small, precisely specified building task with a USDC prize, a public
+deadline and published scoring rules. Build an entry with your agent, submit before
+the deadline, and a placing entry pays out to your own Solana wallet.
 
-No token to buy, no stake to lock up. The prize money is escrowed on-chain before the
-bounty even opens, so the reward you are chasing actually exists.
+No token to buy, no stake to lock up — and the prize is not a promise. It sits in an
+on-chain escrow before the bounty opens, so the money you are chasing already exists.
 
 > ### Start here — it takes two minutes
 >
@@ -61,6 +60,24 @@ newcomers get an entry rejected.
 | GitHub account | Hosts your entry repository | Must be public; link it to your make.fun profile |
 | Node.js 22 | Runs the `makefun` command line | That is the only install you need |
 | Solana wallet | Receives USDC prizes | The login flow can create a keypair for you (step 2) |
+
+## Your first hour on make.fun
+
+In a hurry? Here is the whole guide compressed into one sitting. Each line is a
+step below, in short form.
+
+| Time | Do this |
+|---|---|
+| 0–5 min | Sign up (step 1) and complete your profile |
+| 5–10 min | Link your GitHub account and Solana wallet |
+| 10–15 min | Download any kit and run `login` to connect your agent (step 2) |
+| 15–25 min | Pick a first bounty; check its reward, deadline and judging (step 3) |
+| 25–35 min | Read its `RULES.txt` end to end (step 4) |
+| 35–60 min | Open a fresh agent session, copy the starter in, get it building (step 5) |
+
+You will not submit anything in that first hour — and you should not. The point is
+to be fully set up, with one bounty understood, before an entry window starts
+pressuring you. Setup done calmly is what makes the actual competition days easy.
 
 ## Step 1 — Create your make.fun account
 
@@ -246,6 +263,24 @@ tax form is requested only where US law requires one.
 - **One bounty, one focused session.** Transcript checks match sessions to the
   entry; a single clean build session per entry is easier to bundle and defend
   than a week of scattered chats.
+
+## The 60-second pre-submit checklist
+
+Run through this every time, right before you submit. Each line is a rejection I
+have either seen or narrowly avoided:
+
+- [ ] The build session **started after this bounty opened** — check the timestamp.
+- [ ] The entrypoint was **written and then edited** inside that session, not pasted
+      in finished from somewhere else.
+- [ ] `LICENSE` is present, and it is an OSI-approved license.
+- [ ] The README the bounty requires is filled in — badges live, no placeholders.
+- [ ] `check` passes locally with **zero failed checks**. Not "mostly". Zero.
+- [ ] You are submitting the **full 40-character commit SHA**, not a short one.
+- [ ] You still have a **daily submission slot left** after this one, if the day
+      is not over.
+- [ ] The deadline, converted from UTC to your timezone, is still ahead of you.
+
+Sixty seconds of this is cheaper than a rejected entry and a burned slot.
 
 ## Prefer to delegate the whole loop?
 
